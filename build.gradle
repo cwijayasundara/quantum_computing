@@ -1,0 +1,15 @@
+plugins {
+	id 'application'
+	id 'org.javamodularity.moduleplugin' version '1.2.1'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'com.gluonhq:strange:0.0.6'
+	providedCompile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+}
+
+mainClassName = 'om.cham.quantum_java.first.MyFirstQuantumProgramme'
